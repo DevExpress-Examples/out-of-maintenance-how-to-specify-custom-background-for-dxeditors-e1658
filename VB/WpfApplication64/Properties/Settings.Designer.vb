@@ -7,23 +7,19 @@
 '     the code is regenerated.
 ' </auto-generated>
 '------------------------------------------------------------------------------
+Namespace WpfApplication64.Properties
 
+    <Global.System.Runtime.CompilerServices.CompilerGeneratedAttribute()>
+    <Global.System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "9.0.0.0")>
+    Friend NotInheritable Partial Class Settings
+        Inherits Global.System.Configuration.ApplicationSettingsBase
 
-Imports Microsoft.VisualBasic
-Imports System
-Namespace My
+        Private Shared defaultInstance As WpfApplication64.Properties.Settings = CType((Global.System.Configuration.ApplicationSettingsBase.Synchronized(New WpfApplication64.Properties.Settings())), WpfApplication64.Properties.Settings)
 
-
-	<Global.System.Runtime.CompilerServices.CompilerGeneratedAttribute(), Global.System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "9.0.0.0")> _
-	Friend NotInheritable Partial Class Settings
-		Inherits Global.System.Configuration.ApplicationSettingsBase
-
-		Private Shared defaultInstance As Settings = (CType(Global.System.Configuration.ApplicationSettingsBase.Synchronized(New Settings()), Settings))
-
-		Public Shared ReadOnly Property [Default]() As Settings
-			Get
-				Return defaultInstance
-			End Get
-		End Property
-	End Class
+        Public Shared ReadOnly Property [Default] As Settings
+            Get
+                Return WpfApplication64.Properties.Settings.defaultInstance
+            End Get
+        End Property
+    End Class
 End Namespace
